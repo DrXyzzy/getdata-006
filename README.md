@@ -8,3 +8,7 @@ Coursera: Getting and Cleaning Data
 - README.md
 - CodeBook.md
 - run_analysis.R
+
+## Description of processes
+
+## General data description
