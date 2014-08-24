@@ -1,16 +1,14 @@
 # Getting and Cleaning Data - Week 3 Class Project
 
-## run_analysis.R
+# Assignment: write program *run_analysis.R* that:
 
-### Assignment is to write a program that:
-
-1. Merges the training and the test sets to create one data set.
+1. Merges the training and the test sets uo create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
 5. Creates a second tidy data set with average of each variable for each activity and subject.
 
-### How the script works.
+## How the script works.
 
 There are three pairs of files to be merged from training and test runs: observations, subjects,
 and activity classes. These are merged using separate rbind operations to allow working on
@@ -32,12 +30,12 @@ substitions:
 
 For example, "tBodyAcc-std()-X" becomes "TimeBodyAccStdX" and "fBodyAccMag-mean()" becomes "FreqBodyAccMagMean".
 
-Step 5 computes them mean value of selected observations for pair of subject and activity values,
+Step 5 computes the mean value of selected observations for pair of subject and activity values,
 inserting columns for subject number and activity name at the the start of the dataframe. The result
 is then written to "tidy-data.txt" a space-delimited text file with header.
 
 
-### running the program
+## Running the program
 
 1. Download dataset zip archive from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 2. Unzip dataset. It creates folder "UCI HAR Dataset".

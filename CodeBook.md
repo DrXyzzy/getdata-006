@@ -8,14 +8,14 @@ at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smart
 
 The following Data files from the above dataset were used for input:
 
-- activity_labels.txt - map activity class, integer 1-6, to activity name
-- features.txt - map column number, integer 1-561, to variable name in training and test set
-- train/X_train.txt - training set
-- train/subject_train.txt - subject number, range 1-30, for each observation in training set
-- train/y_train.txt - activity number, range 1-6, for each observation in training set
-- test/X_test.txt - test set
-- test/subject_test.txt - subject number, range 1-30, for each observation in test set
-- test/y_test.txt - activity number, range 1-6, for each observation in test set
+- *activity_labels.txt* - map activity class, integer 1-6, to activity name
+- *features.txt* - map column number, integer 1-561, to variable name in training and test set
+- *train/X_train.txt* - training set
+- *train/subject_train.txt* - subject number, range 1-30, for each observation in training set
+- *train/y_train.txt* - activity number, range 1-6, for each observation in training set
+- *test/X_test.txt* - test set
+- *test/subject_test.txt* - subject number, range 1-30, for each observation in test set
+- *test/y_test.txt* - activity number, range 1-6, for each observation in test set
 
 ## Which observations were extracted:
 
@@ -32,7 +32,7 @@ Measurement variables in columns 3-68 have been renamed according to README.md f
 corresponding variables documented in dataset file features_info.txt.
 
 |column|variable label|type|range of values|
-|-|-|-|-|
+|---|---|---|---|
 |1|Subject|integer|1-30|
 |2|Activity|character|WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING|
 |3|TimeBodyAccMeanX|numeric|-1.0 .. 1.0|
