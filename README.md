@@ -41,7 +41,8 @@ is then written to "tidy-data.txt" a space-delimited text file with header.
 2. Unzip dataset. It creates folder "UCI HAR Dataset".
 3. Install script run_analysis.R to dataset folder "UCI HAR Dataset".
 4. Start R studio or command session and do the following:
-        setwd("... path to dataset folder ...")
-        source("run_analysis.R")
-        ... view output in text file "tidy-data.txt" ...
+
+    setwd("... path to dataset folder ...")
+    source("run_analysis.R")
+    ... view output in text file "tidy-data.txt" ...
 
