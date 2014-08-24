@@ -10,26 +10,6 @@
 4. Appropriately labels the data set with descriptive variable names.
 5. Creates a second tidy data set with average of each variable for each activity and subject.
 
-### Data files used for input:
-
-- activity_labels.txt - map activity class, integer 1-6, to activity name
-- features.txt - map column number, integer 1-561, to variable name in training and test set
-- train/X_train.txt - training set
-- train/subject_train.txt - subject number, range 1-30, for each observation in training set
-- train/y_train.txt - activity number, range 1-6, for each observation in training set
-- test/X_test.txt - test set
-- test/subject_test.txt - subject number, range 1-30, for each observation in test set
-- test/y_test.txt - activity number, range 1-6, for each observation in test set
-
-### Which observations were extracted:
-
-1. Exclude "meanFreq" variables because they are weighted averages, not unweighted means,
-and do not have corresponding "std" variables in the feature list.
-2. Include all other "mean" and "std" variables from observations, including frequency domain
-variables. It could be argued that frequency domain variables are derived from time domain and
-are therefore not raw measurements, but they are included because they might be wanted. The
-(hypothetical) purpose of the tidy data set is not given in this exercise.
-
 ### How the script works.
 
 There are three pairs of files to be merged from training and test runs: observations, subjects,
@@ -58,9 +38,12 @@ is then written to "tidy-data.txt" a space-delimited text file with header.
 
 
 ### running the program
-        # assume working directory has data files above and script run_analysis.R
+
+1. Download dataset zip archive from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+2. Unzip dataset. It creates folder "UCI HAR Dataset".
+3. Install script run_analysis.R to dataset folder "UCI HAR Dataset".
+4. Start R studio or command session and do the following:
+        setwd("... path to dataset folder ...")
         source("run_analysis.R)
         ... view output in text file "tidy-data.txt" ...
-
-
 
