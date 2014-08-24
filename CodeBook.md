@@ -34,7 +34,7 @@ corresponding variables documented in dataset file features_info.txt.
 |column|variable label|type|range of values|
 |---|---|---|---|
 |1|Subject|integer|1-30|
-|2|Activity|character|WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING|
+|2|Activity|character|WALKING,WALKING_UPSTAIRS,<br>WALKING_DOWNSTAIRS,SITTING,<br>STANDING,LAYING|
 |3|TimeBodyAccMeanX|numeric|-1.0 .. 1.0|
 |4|TimeBodyAccMeanY|numeric|-1.0 .. 1.0|
 |5|TimeBodyAccMeanZ|numeric|-1.0 .. 1.0|

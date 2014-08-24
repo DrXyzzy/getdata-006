@@ -2,9 +2,9 @@
 
 # Assignment: write program *run_analysis.R* that:
 
-1. Merges the training and the test sets uo create one data set.
+1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activities in the data set
+3. Uses descriptive activity names to name the activities in the data set.
 4. Appropriately labels the data set with descriptive variable names.
 5. Creates a second tidy data set with average of each variable for each activity and subject.
 
@@ -42,6 +42,6 @@ is then written to "tidy-data.txt" a space-delimited text file with header.
 3. Install script run_analysis.R to dataset folder "UCI HAR Dataset".
 4. Start R studio or command session and do the following:
         setwd("... path to dataset folder ...")
-        source("run_analysis.R)
+        source("run_analysis.R")
         ... view output in text file "tidy-data.txt" ...
 
