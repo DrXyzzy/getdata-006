@@ -32,7 +32,7 @@ Measurement variables in columns 3-68 have been renamed according to README.md f
 corresponding variables documented in dataset file features_info.txt.
 
 |column|variable label|type|range of values|
-|---|---|---|---|
+|---|:--|:--|:--|
 |1|Subject|integer|1-30|
 |2|Activity|character|WALKING,WALKING_UPSTAIRS,<br>WALKING_DOWNSTAIRS,SITTING,<br>STANDING,LAYING|
 |3|TimeBodyAccMeanX|numeric|-1.0 .. 1.0|
