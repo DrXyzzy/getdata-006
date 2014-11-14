@@ -1,4 +1,5 @@
 # Getting and Cleaning Data - Week 3 Class Project
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/DrXyzzy/getdata-006?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Assignment: write program *run_analysis.R* that:
 
